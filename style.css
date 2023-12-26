@@ -1,0 +1,117 @@
+
+
+
+* {
+    height: 100%;
+    margin:0;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 180%;
+    color: #151414;
+    text-align: center;
+}
+.parallax1 {
+    background-image: url(img/New\ day.png);
+    min-height: 100%;
+}
+.parallax2 {
+    background-image: url(img/New\ sun.jpg);
+    min-height: 60%;
+}
+.parallax3 {
+    background-image: url(img/Power.png);
+    min-height: 60%;
+}
+.parallax4 {
+    /* background-color: #751212; */
+    padding:0;
+    margin-bottom: auto;
+    background-image: url(img/Birdy.jpg);
+    min-height: 100%;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*Important*/
+}
+
+.head {
+    position: absolute;
+    color: #fff;
+    font-size: 500%;
+    top:30%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    animation: drop 1.0s ease; /* Make things beautiful */
+    cursor: pointer;
+    bottom: 0;
+    padding: 0;
+}
+
+.head:hover{
+    color:transparent;
+}
+
+
+
+p{
+    margin-bottom:0px;
+    font-size: 1.1em; /* Adjust font size */
+    color: #141111; /* Slightly darker text color */
+}
+
+section {
+    height: auto;
+    margin-bottom: 0%;
+   
+    padding: 50px 80px;
+    background: transparent;
+
+}
+
+footer{
+    width: 100%;
+    background-color: #323232;
+    color: #f2f2f2;
+    height: 8vh;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 0;
+}
+
+
+
+section div h1{
+    /* background-color: #000000; */
+    margin:0;
+    padding: 0;
+    height:auto;
+
+}
+
+@media (max-width:800px) {
+    .head{
+        font-size: 200%;
+    }
+   
+}
+
+
+@keyframes drop {
+    0% {
+      opacity: 0;
+      transform: translateY(-80px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu'); /*IMPORTANT*/
+
